@@ -277,34 +277,6 @@ class _MoreScreenState extends State<MoreScreen> {
                   shape: RoundedRectangleBorder(borderRadius: kBorderRadius),
                 ),
               ),
-              SizedBox(
-                height: 80,
-                child: Card(
-                  child: Center(
-                    child: ListTile(
-                      title: Text(
-                        Language.getTranslation("advancedSettings"),
-                        style: TextStyle(
-                          color: ThemeColors.primaryTextColor(),
-                        ),
-                      ),
-                      onTap: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) =>
-                                    AdvancedSettingsScreen()));
-                      },
-                      leading: Icon(
-                        Icons.settings,
-                        color: ThemeColors.secondaryTextColor(),
-                      ),
-                    ),
-                  ),
-                  shape: RoundedRectangleBorder(borderRadius: kBorderRadius),
-                  color: ThemeColors.cardColor(),
-                ),
-              ),
             ],
           ),
         ),

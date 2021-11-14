@@ -98,26 +98,26 @@ class _HomeScreenState extends State<HomeScreen> {
                   GButton(
                     icon: LineIcons.sun_o,
                     text: Language.getTranslation("current"),
-                    iconActiveColor: Colors.amber[900],
+                    iconActiveColor: Colors.pink[900],
                     iconColor: ThemeColors.primaryTextColor(),
-                    textColor: Colors.amber[900],
-                    backgroundColor: Colors.amber[600].withOpacity(.2),
+                    textColor: Colors.pink[900],
+                    backgroundColor: Colors.pink[600].withOpacity(.2),
                   ),
                   GButton(
                     icon: LineIcons.calendar,
                     text: Language.getTranslation("forecast"),
-                    iconActiveColor: Colors.pink,
+                    iconActiveColor: Colors.purple,
                     iconColor: ThemeColors.primaryTextColor(),
-                    textColor: Colors.pink,
-                    backgroundColor: Colors.pink.withOpacity(.2),
+                    textColor: Colors.purple,
+                    backgroundColor: Colors.purple.withOpacity(.2),
                   ),
                   GButton(
                     icon: Icons.location_on_outlined,
                     text: Language.getTranslation("locations"),
-                    iconActiveColor: Colors.blueAccent,
+                    iconActiveColor: Colors.lightBlue,
                     iconColor: ThemeColors.primaryTextColor(),
-                    textColor: Colors.blueAccent,
-                    backgroundColor: Colors.blueAccent.withOpacity(.2),
+                    textColor: Colors.lightBlue,
+                    backgroundColor: Colors.lightBlue.withOpacity(.2),
                   ),
                   GButton(
                     icon: Icons.more_vert_outlined,
@@ -176,14 +176,7 @@ class _HomeScreenState extends State<HomeScreen> {
               },
             ),
             FlatButton(
-              child: Text(Language.getTranslation("defaultLocation")),
-              onPressed: () {
-                //open the settings screen for location
-                Navigator.push(context, MaterialPageRoute(builder: (context) => AdvancedSettingsScreen()));
-              },
-            ),
-            FlatButton(
-              child: Text(Language.getTranslation("close")),
+              child: Text("Close and Manually Add"),
               onPressed: () {
                 //closes the dialog
                 Navigator.pop(context);

@@ -571,8 +571,8 @@ final Map<String, Map<String, String>> localizedValues = {
         'Ο διακομιστής καιρού έχει μπλοκάρει το αίτημά σας. Χρησιμοποιήστε το δικό σας κλειδί API. '
   },
   'en': {
-    'current': 'Current ',
-    'forecast': 'Forecast ',
+    'current': 'Hourly ',
+    'forecast': 'Daily ',
     'locations': 'Locations ',
     'more': 'More ',
     'feelsLike': 'Feels like ',
@@ -623,7 +623,7 @@ final Map<String, Map<String, String>> localizedValues = {
     'mbKey': 'Enter MapBox API Key ',
     'customKeyInfo':
         'Leave blank to use default values. If API Keys are incorrect, default values will be used instead. ',
-    'thankYouForUsing': 'Thank you for using Weather Today. ',
+    'thankYouForUsing': 'Weather Today by Cipher ',
     'changelog': 'Changelog ',
     'getAKey': 'Get a key here ',
     'getAKeyNote': 'NOTE: It may take some time for your key to activate ',
