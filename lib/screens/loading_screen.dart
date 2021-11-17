@@ -4,10 +4,8 @@ import 'package:flutter_weather/preferences/language.dart';
 import 'package:flutter_weather/preferences/shared_prefs.dart';
 import 'package:flutter_weather/preferences/theme_colors.dart';
 import 'package:flutter_weather/screens/home_screen.dart';
-import 'package:flutter_weather/screens/saved_location_screen.dart';
 import 'package:flutter_weather/services/time.dart';
 import 'package:flutter_weather/services/weather_model.dart';
-import 'current_weather_screen.dart';
 
 class LoadingScreen extends StatefulWidget {
   @override
@@ -107,7 +105,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
                 padding: const EdgeInsets.all(10.0),
                 child: SpinKitThreeBounce(
                   size: 30,
-                  color: Colors.blueAccent,
+                  color: Colors.teal,
                 ),
               ),
             ),
@@ -132,7 +130,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
                     padding: const EdgeInsets.all(8.0),
                     child: RaisedButton(
                       child: Text(Language.getTranslation("retry"), style: TextStyle(color: ThemeColors.primaryTextColor()),),
-                      color: Colors.blueAccent,
+                      color: Colors.teal,
                       onPressed: () {
                         Navigator.pushReplacement(
                           context,
@@ -152,7 +150,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
                     child: RaisedButton(
                       child: Text("Edit API Keys", style: TextStyle(color: ThemeColors.primaryTextColor()),), //TODO: TRANSLATE STRINGS
                       //Language.getTranslation("editAPIKeys")
-                      color: Colors.blueAccent,
+                      color: Colors.teal,
                       onPressed: () {
                         Navigator.pushReplacement(
                           context,

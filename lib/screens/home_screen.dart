@@ -3,13 +3,11 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_weather/preferences/language.dart';
 import 'package:flutter_weather/preferences/theme_colors.dart';
-import 'package:flutter_weather/screens/advanced_settings_screen.dart';
 import 'package:flutter_weather/screens/current_weather_screen.dart';
 import 'package:flutter_weather/screens/loading_screen.dart';
 import 'package:flutter_weather/screens/saved_location_screen.dart';
 import 'package:flutter_weather/screens/daily_forecast_screen.dart';
 import 'package:flutter_weather/screens/more_screen.dart';
-import 'package:flutter_weather/services/location_service.dart';
 import 'package:flutter_weather/services/weather_model.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:line_icons/line_icons.dart';
@@ -98,34 +96,34 @@ class _HomeScreenState extends State<HomeScreen> {
                   GButton(
                     icon: LineIcons.sun_o,
                     text: Language.getTranslation("current"),
-                    iconActiveColor: Colors.pink[900],
+                    iconActiveColor: Colors.green,
                     iconColor: ThemeColors.primaryTextColor(),
-                    textColor: Colors.pink[900],
-                    backgroundColor: Colors.pink[600].withOpacity(.2),
+                    textColor: Colors.green,
+                    backgroundColor: Colors.greenAccent.withOpacity(.2),
                   ),
                   GButton(
                     icon: LineIcons.calendar,
                     text: Language.getTranslation("forecast"),
-                    iconActiveColor: Colors.purple,
-                    iconColor: ThemeColors.primaryTextColor(),
-                    textColor: Colors.purple,
-                    backgroundColor: Colors.purple.withOpacity(.2),
-                  ),
-                  GButton(
-                    icon: Icons.location_on_outlined,
-                    text: Language.getTranslation("locations"),
                     iconActiveColor: Colors.lightBlue,
                     iconColor: ThemeColors.primaryTextColor(),
                     textColor: Colors.lightBlue,
                     backgroundColor: Colors.lightBlue.withOpacity(.2),
                   ),
                   GButton(
+                    icon: Icons.location_on_outlined,
+                    text: Language.getTranslation("locations"),
+                    iconActiveColor: Colors.deepPurpleAccent,
+                    iconColor: ThemeColors.primaryTextColor(),
+                    textColor: Colors.deepPurpleAccent,
+                    backgroundColor: Colors.deepPurpleAccent.withOpacity(.2),
+                  ),
+                  GButton(
                     icon: Icons.more_vert_outlined,
                     text: Language.getTranslation("more"),
-                    iconActiveColor: Colors.teal,
+                    iconActiveColor: Colors.red,
                     iconColor: ThemeColors.primaryTextColor(),
-                    textColor: Colors.teal,
-                    backgroundColor: Colors.teal.withOpacity(.2),
+                    textColor: Colors.red,
+                    backgroundColor: Colors.red.withOpacity(.2),
                   ),
                 ],
                 selectedIndex: _selectedIndex,
@@ -210,13 +208,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 onPressed: () {
                   Navigator.pushReplacement(context,
                       MaterialPageRoute(builder: (context) => LoadingScreen()));
-                },
-              ),
-              FlatButton(
-                child: Text(Language.getTranslation("customAPIKeys")),
-                onPressed: () {
-                  Navigator.pushReplacement(context,
-                      MaterialPageRoute(builder: (context) => AdvancedSettingsScreen()));
                 },
               ),
             ],

@@ -4,7 +4,6 @@ import 'package:flutter_weather/constants/constants.dart';
 import 'package:flutter_weather/preferences/language.dart';
 import 'package:flutter_weather/preferences/shared_prefs.dart';
 import 'package:flutter_weather/preferences/theme_colors.dart';
-import 'package:flutter_weather/screens/advanced_settings_screen.dart';
 import 'package:flutter_weather/screens/home_screen.dart';
 import 'package:package_info/package_info.dart';
 
@@ -135,6 +134,7 @@ class _MoreScreenState extends State<MoreScreen> {
                 child: Card(
                   child: Center(
                     child: SwitchListTile(
+                      activeColor: Colors.teal,
                       title: Text(
                         Language.getTranslation("darkMode"),
                         style: TextStyle(color: ThemeColors.primaryTextColor()),
@@ -168,6 +168,7 @@ class _MoreScreenState extends State<MoreScreen> {
                 child: Card(
                   child: Center(
                     child: SwitchListTile(
+                      activeColor: Colors.teal,
                       title: Text(
                         Language.getTranslation("useFahrenheit"),
                         style: TextStyle(
@@ -198,6 +199,7 @@ class _MoreScreenState extends State<MoreScreen> {
                 child: Card(
                   child: Center(
                     child: SwitchListTile(
+                      activeColor: Colors.teal,
                       title: Text(
                         Language.getTranslation("use24HourTime"),
                         style: TextStyle(
@@ -245,7 +247,7 @@ class _MoreScreenState extends State<MoreScreen> {
                             fontSize: 16),
                         underline: Container(
                           height: 2,
-                          color: Colors.blueAccent,
+                          color: Colors.teal,
                         ),
                         dropdownColor: ThemeColors.backgroundColor(),
                         onChanged: (String newValue) async {

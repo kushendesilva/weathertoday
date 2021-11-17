@@ -138,7 +138,7 @@ class _SavedLocationScreenState extends State<SavedLocationScreen> {
             Container(
               decoration: BoxDecoration(
                 borderRadius: kBorderRadius,
-                color: Colors.blueAccent,
+                color: Colors.teal,
               ),
               margin: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
               child: Material(

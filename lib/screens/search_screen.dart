@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_weather/preferences/language.dart';
 import 'package:flutter_weather/preferences/theme_colors.dart';
 import 'package:mapbox_search_flutter/mapbox_search_flutter.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class SearchScreen extends StatefulWidget {
@@ -17,6 +16,7 @@ class _SearchScreenState extends State<SearchScreen> {
     return Scaffold(
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
+        backgroundColor: Colors.teal,
         title: Text(Language.getTranslation("addLocation")),
         centerTitle: true,
       ),
@@ -50,11 +50,6 @@ class _SearchScreenState extends State<SearchScreen> {
                   ),
                   SizedBox(
                     height: 30,
-                  ),
-                  SvgPicture.asset(
-                    "assets/undraw_Location_search_re_ttoj.svg",
-                    semanticsLabel: "Search Illustration",
-                    height: 210,
                   ),
                 ],
               )
