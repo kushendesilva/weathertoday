@@ -14,7 +14,7 @@ Weather Today is a Flutter Application I developed for My University Project :co
 
 ## Downloads
 
-**Android:** [APK](https://github.com/kushenthimira/weathertoday/raw/main/downloads/Android.apk)
+**Android:** [APK](https://github.com/kushenthimira/weathertoday/releases/download/v2.0/Android.apk)
 
 ## Contact Me
 
