@@ -6,8 +6,8 @@ import 'package:flutter_weather/preferences/shared_prefs.dart';
 import 'package:flutter_weather/preferences/theme_colors.dart';
 import 'package:flutter_weather/screens/home_screen.dart';
 import 'package:package_info/package_info.dart';
+import 'package:url_launcher/url_launcher.dart';
 
-import 'loading_screen.dart';
 
 class MoreScreen extends StatefulWidget {
   @override
@@ -110,20 +110,6 @@ class _MoreScreenState extends State<MoreScreen> {
                             fontWeight: FontWeight.bold,
                             fontSize: 18,
                             color: Colors.white),
-                      ),
-                    ),
-                    Positioned(
-                      top: 22,
-                      right: 15,
-                      child: Container(
-                        height: 70,
-                        width: 70,
-                        decoration: BoxDecoration(
-                          image: DecorationImage(
-                            image: AssetImage("assets/logo.png"),
-                            fit: BoxFit.fill,
-                          ),
-                        ),
                       ),
                     ),
                   ],
