@@ -15,7 +15,6 @@
 | <img width="1604" alt="screenshot" src="/assets/images/1.png"> | <img width="1604" alt="screenshot" src="/assets/images/2.png"> | <img width="1604" alt="screenshot" src="/assets/images/3.png"> |
 | <img width="1604" alt="screenshot" src="/assets/images/4.png"> | <img width="1604" alt="screenshot" src="/assets/images/5.png"> | <img width="1604" alt="screenshot" src="/assets/images/6.png"> |
 
-|
 
 <h3 align="left">Socials</h3>
 <p align="left">
