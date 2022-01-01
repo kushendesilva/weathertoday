@@ -1,21 +1,27 @@
-## Weather Today
+<h1 align="center">Weather Today☁️</h1>
+<h3 align="center">A Mobile Application built using Flutter</h3>
 
-Weather Today is a Flutter Application I developed for My University Project :computer:
+- 👨‍💻 All of my projects are available at **https://kushenofficial.web.app**
 
-## Screenshots
+- 📫 How to reach me **kushenthimira@gmail.com**
 
-<img src="/assets/images/1.png" alt="Preview" width="200" />
-<img src="/assets/images/2.png" alt="Preview" width="200" />
-<img src="/assets/images/3.png" alt="Preview" width="200" />
-<img src="/assets/images/4.png" alt="Preview" width="200" />
-<img src="/assets/images/5.png" alt="Preview" width="200" />
-<img src="/assets/images/6.png" alt="Preview" width="200" />
-<img src="/assets/images/7.png" alt="Preview" width="200" />
+<h3 align="left">Resources</h3>
 
-## Downloads
+- 📱 Downloadable APK available <a href="https://github.com/kushenthimira/weathertoday/releases/download/v2.3.2/weathertoday.apk" target="blank">**here**</a>
+- 📝 Privacy Policy Details available <a href="https://github.com/kushenthimira/weathertoday/blob/main/SECURITY.md" target="blank">**here**</a>
 
-**Android:** [APK](https://github.com/kushenthimira/weathertoday/releases/download/v2.3.2/weathertoday.apk)
+|                                                                |                                                                |                                                                |
+| :------------------------------------------------------------: | :------------------------------------------------------------: | :------------------------------------------------------------: |
+| <img width="1604" alt="screenshot" src="/assets/images/1.png"> | <img width="1604" alt="screenshot" src="/assets/images/2.png"> | <img width="1604" alt="screenshot" src="/assets/images/3.png"> |
+| <img width="1604" alt="screenshot" src="/assets/images/4.png"> | <img width="1604" alt="screenshot" src="/assets/images/5.png"> | <img width="1604" alt="screenshot" src="/assets/images/6.png"> |
 
-## Contact Me
+|
 
-**Author:** [Kushen De Silva (@kushenthimira)](https://github.com/kushenthimira) | [Facebook](https://facebook.com/ciphernpc) | [LinkedIn](https://linkedin.com/in/kushenthimira) | [WhatsApp](https://wa.me/94717827878) |
+<h3 align="left">Socials</h3>
+<p align="left">
+<a href="https://wa.me/94717827878" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="ciphernpc" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/kushenthimira" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="kushenthimira" height="30" width="40" /></a>
+<a href="https://twitter.com/kushenthimira" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="kushenthimira" height="30" width="40" /></a>
+<a href="https://fb.com/ciphernpc" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="ciphernpc" height="30" width="40" /></a>
+<a href="https://instagram.com/ciphernpc" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ciphernpc" height="30" width="40" /></a>
+</p>
