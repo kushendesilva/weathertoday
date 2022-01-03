@@ -15,7 +15,7 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 2.3.2+11
+version: 3.0.0+12
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -70,7 +70,7 @@ flutter_icons:
   android: true
   ios: true
   image_path: "assets/logo.png"
-  adaptive_icon_background: "#009688"
+  adaptive_icon_background: "#ffffff"
   adaptive_icon_foreground: "assets/foreground.png"
   remove_alpha_ios: true
 # For information on the generic Dart part of this file, see the
@@ -127,16 +127,16 @@ flutter_native_splash:
   # flutter pub run flutter_native_splash:remove
 
   # color is the only required parameter.  It sets the background color of your splash screen.
-  color: "#009688"
+  color: "#ffffff"
   # Optional parameters are listed below.  To enable a parameter, uncomment the line by removing
   # the leading # character.
 
   # The image parameter allows you to specify an image used in the splash screen.  It must be a
   # png file.
-  image: assets/splash.png
+  image: assets/logo.png
 
-  color_dark: "#009688"
-  image_dark: assets/splash.png
+  color_dark: "#ffffff"
+  image_dark: assets/logo.png
 
   # The color_dark and image_dark are parameters that set the color and image when the device is
   # in dark mode.  If they are not specified, the app will use the color and image above.
