@@ -7,7 +7,7 @@
 
 <h3 align="left">Resources</h3>
 
-- 📱 Downloadable APK available <a href="https://github.com/kushenthimira/weathertoday/releases/download/v2.3.2/weathertoday.apk" target="blank">**here**</a>
+- 📱 Downloadable APK available <a href="https://github.com/kushenthimira/weathertoday/releases/download/v3.0.0/weathertoday.apk" target="blank">**here**</a>
 - 📝 Privacy Policy Details available <a href="https://github.com/kushenthimira/weathertoday/blob/main/SECURITY.md" target="blank">**here**</a>
 
 |                                                                |                                                                |                                                                |
