@@ -11,7 +11,7 @@
 |                                                                |                                                                |                                                                |
 | :------------------------------------------------------------: | :------------------------------------------------------------: | :------------------------------------------------------------: |
 | <img width="1604" alt="screenshot" src="/assets/images/1.png"> | <img width="1604" alt="screenshot" src="/assets/images/2.png"> | <img width="1604" alt="screenshot" src="/assets/images/4.png"> |
-| <img width="1604" alt="screenshot" src="/assets/images/5.png"> | <img width="1604" alt="screenshot" src="/assets/images/6.png"> | <img width="1604" alt="screenshot" src="/assets/images/7.png"> |
+| <img width="1604" alt="screenshot" src="/assets/images/5.png"> | <img width="1604" alt="screenshot" src="/assets/images/6.png"> | <img width="1604" alt="screenshot" src="/assets/images/3.png"> |
 
 <h3 align="left">Languages and Tools Used:</h3>
 <p align="left">
